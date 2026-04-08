@@ -39,13 +39,6 @@ esbuild.build({
 }).catch(() => process.exit(1));
 ```
 
-### TypeScript Support
-
-No extra setup is needed — esbuild compiles TypeScript out of the box:
-
-```bash
-npx esbuild src/index.ts --bundle --outfile=out.js
-```
 
 ---
 
