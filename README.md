@@ -23,23 +23,6 @@ Traditional bundlers are powerful but can be slow for large projects. esbuild so
 * Cross-Platform – Precompiled binaries available for Windows, macOS, and Linux (including x64, ARM).
 * Zero Config – Sensible defaults for most projects, while allowing custom configuration.
 
- Node.js API
-
-```js
-const esbuild = require("esbuild");
-
-esbuild.build({
-  entryPoints: ["app.js"],
-  bundle: true,
-  minify: true,
-  sourcemap: true,
-  outfile: "out.js",
-  target: ["es2017"],   // Specify output target
-  platform: "browser",  // Can also be 'node'
-}).catch(() => process.exit(1));
-```
-
-
 ---
 
  Advanced Options
