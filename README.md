@@ -23,8 +23,6 @@ Traditional bundlers are powerful but can be slow for large projects. esbuild so
 * Cross-Platform – Precompiled binaries available for Windows, macOS, and Linux (including x64, ARM).
 * Zero Config – Sensible defaults for most projects, while allowing custom configuration.
 
----
-
  Advanced Options
 
 * Code Splitting – Split output into multiple bundles.
